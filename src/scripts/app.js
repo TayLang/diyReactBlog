@@ -21,26 +21,6 @@ import init from './init'
 // 	}
 // })
 
-  // <div id="head">
-  //   <img src="http://magentanova.github.io/html-intro-1/images/houston.jpg" id="pic1"/>
-  //   <img src="http://magentanova.github.io/html-intro-1/images/ironyardlogo.png" id="pic2"/>
-  // </div>
-  // <div id="text-body">
-  //   <div id="column-one">
-  //     <h4>THE IRON YARD | HOUSTON</h4>
-  //     <p id="graytext">Happenings and updates from The Iron Yard in Houston, TX</p>
-  //     <p id="Search">SEARCH</p>
-  //     <input type:'search' placeholder='Search Keywords'>
-  //   </div>
-  //   <div id="column-two">
-  //     <h1>SEPTEMBER 22 Starts a New Class of The Iron Yard Students</h1>
-  //     <p id="BDCD"><em>By Brian Dorton, Campus Director at <a href="https://www.theironyard.com/locations/houston.html"> The Iron Yard</a> Houston</em></p>
-  //     <div id="img-crop">  
-  //     	<img src="http://magentanova.github.io/html-intro-1/images/classroom.jpg"id="pic3"/>
-  //   	 </div>
-  //     <p>Unicorn experiental human-centered design entrepreneur lette agile ideate human-centered design fund physical computing bootstrapping sticky note engaging minimum viable product. Moleskine earned media human-centered design experiential entrepreneur grok parallax waterfall is so 2000 and</p>
-  //   </div>
-  // </div>
 
 var Body = React.createClass({
 	render: function() {
@@ -82,7 +62,7 @@ var Columnone = React.createClass({
 				<h4>THE IRON YARD | HOUSTON</h4>
 				<Graytext />
 				<Search />
-				<input type:'search' placeholder='Search Keywords'/>
+				<input type='search' placeholder='Search Keywords'/>
 			</div>
 		)
 	}
@@ -148,7 +128,7 @@ var IMGCrop = React.createClass({
 var app = function() {
 	var libraryName = 'react'
 
-    ReactDOM.render(<Body />, document.querySelector('.container').innerHTML = `<h1>diyReactBlog</h1>`
+    ReactDOM.render(<Body />, document.querySelector('.container')).innerHTML = `<h1>diyReactBlog</h1>`
 }
 
 // x..x..x..x..x..x..x..x..x..x..x..x..x..x..x..x..
